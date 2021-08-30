@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "python-serverless"
+version = "0.1.0"
+description = ""
+authors = ["Da Ke <keda@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+awscli = "^1.20.26"
+"aws-cdk.core" = "^1.120.0"
+"aws-cdk.aws-s3" = "^1.120.0"
+"aws-cdk.aws-lambda" = "^1.120.0"
+"aws-cdk.aws-lambda-python" = "^1.120.0"
+"aws-cdk.aws-stepfunctions" = "^1.120.0"
+"aws-cdk.aws-apigateway" = "^1.120.0"
+"aws-cdk.aws-stepfunctions-tasks" = "^1.120.0"
+
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.9"
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

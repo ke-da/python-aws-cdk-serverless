@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Da Ke <keda@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+SQLAlchemy = "^1.4.23"
+psycopg2-binary = "^2.9.1"
+alembic = "^1.6.5"
+fastapi = "^0.68.1"
+mangum = "^0.12.2"
+boto3 = "^1.18.31"
+
+[tool.poetry.dev-dependencies]
+uvicorn = "^0.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
